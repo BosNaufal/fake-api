@@ -133,7 +133,7 @@ FakeAPI.add('GET', '/the/url', (args) => {
   let yourAllData = database.get() //bunch of data {}
 
   // mutate your data
-  databse.set({ newData: "halo" })
+  database.set({ newData: "halo" })
 
   return database.get() // { newData: "halo"  }
 })
